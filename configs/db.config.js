@@ -15,7 +15,7 @@ module.exports = {
     test: {
         HOST: "localhost",
         USER: "root",
-        PASSWORD: "Mohit@19",
+        PASSWORD: "root",
         DB: "ecom_test_db",
         dialect: "mysql",
         pool: {
@@ -25,11 +25,11 @@ module.exports = {
             idle: 10000  // maximum time in ms that a connection can be idle before being released
         }
     },
-    production: {
-        HOST:"sql12.freemysqlhosting.net",
-        USER:"sql12607558",
-        PASSWORD:"6pgx4PCmL2",
-        DB:"sql12607558",
-        dialect:"mysql"
-    }
+    // production: {
+    //     HOST:"sql12.freemysqlhosting.net",
+    //     USER:"sql12607558",
+    //     PASSWORD:"6pgx4PCmL2",
+    //     DB:"sql12607558",
+    //     dialect:"mysql"
+    // }
 }
