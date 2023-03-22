@@ -1,27 +1,22 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "This is the code base for eCommerce back end application",
+  "description": "This is a code base for eCommerce backend application",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage"
+    "test": "jest",
+    "start": "node server.js"
   },
-  "author": "Vishwa Mohan",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.29.3"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3",
-    "jest": "^27.5.1",
-    "supertest": "^6.2.2"
+    "sequelize": "^6.20.0"
   }
 }

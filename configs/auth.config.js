@@ -1,3 +1,3 @@
 module.exports = {
-    secret: "vivek-patil-secret-key"
-};
+    secret: "Vivek-Patil-secret-key"
+}

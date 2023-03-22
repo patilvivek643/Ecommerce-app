@@ -1,16 +1,17 @@
-module.exports = ( sequelize , Sequelize) => {
+
+module.exports = (sequelize, Sequelize) => {
 
     const User = sequelize.define("users", {
-        username : {
-            type : Sequelize.STRING
+        username: {
+            type: Sequelize.STRING
         },
         email: {
             type: Sequelize.STRING
-          },
-          password: {
+        },
+        password: {
             type: Sequelize.STRING
-          }
-        });
-        return User;
-    
+        }
+    });
+
+    return User;
 };
